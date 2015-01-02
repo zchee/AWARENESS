@@ -1,7 +1,7 @@
 +++
 date = "2015-01-03T05:23:31+09:00"
 draft = true
-title = "in the beginning of spring cleaning No.1"
+title = "in the beginning of spring cleaning 1"
 tags = ["tmux"]
 categories = ["environment"]
 
@@ -67,13 +67,18 @@ jsonでかけるのは良いかも。
 functionについてはマニュアルを参考のこと。
 
 ペイン仕切り線の色を変えることによって現在のペインを目立たせることができるのだが、デフォルトだとgreenになるのかどこかで指定されているのか、とにかくステータスラインとあっていなかったので
+
 ```
 setw -g pane-active-border-fg blue
 ```
+
 として色を変更。  
 
 今考えると、去年はpowerlineステータスライン使っていなかったのか。  
 見栄えよくなり、新鮮味があっていい。
+
+ただ、ステータスラインがちらつくのが少し困る。  
+[tmux-powerline](https://github.com/erikw/tmux-powerline)もあるので、ふたつを統合できたらいいんだけど。
 
 ## Time
 ただ、これらの設定をするのに1日かかってしまった。  
