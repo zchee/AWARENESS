@@ -1,0 +1,22 @@
+{
+  "name": "zchee-hugo",
+  "version": "0.0.0",
+  "homepage": "https://github.com/zchee/memo-hugo",
+  "authors": [
+    "zchee <zchee@zsh.us>"
+  ],
+  "keywords": [
+    "hugo",
+    "gulp"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

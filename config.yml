@@ -1,0 +1,16 @@
+---
+baseurl: 'http://zchee.github.io/'
+title: 'Awareness'
+builddrafts: true
+canonifyurls: true
+footnotereturnlinkcontents: '↩'
+permalinks:
+  post: /:year/:month/:title/
+params:
+  twitter: '_zchee_'
+  github: 'zchee'
+  Description: 'The awareness of knowledge'
+
+indexes:
+   category: 'categories'
+   tag: 'tags'
